@@ -1,0 +1,64 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Masonry (1.0.2)
+  - MJExtension (3.0.15.1)
+  - NIMSDK (5.5.0)
+  - RCBaseComponent (0.2.4):
+    - AFNetworking
+    - MJExtension
+    - SVProgressHUD
+  - RCNIMAVChatComponet (0.1.0):
+    - Masonry (~> 1.0.1)
+    - NIMSDK
+    - RCBaseComponent
+    - SDWebImage (= 4.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - RCNIMAVChatComponet (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Masonry
+    - MJExtension
+    - NIMSDK
+    - SDWebImage
+    - SVProgressHUD
+  https://github.com/rocedar/RocedarPodSpecs.git:
+    - RCBaseComponent
+
+EXTERNAL SOURCES:
+  RCNIMAVChatComponet:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  NIMSDK: 7f04d5c71a65171bc56f34a8f6e3477a2a19f319
+  RCBaseComponent: 2a1602eb1afc6e1d81685c775350104d0c5790ce
+  RCNIMAVChatComponet: 450a4550cf6e5a436ec094ce663c2174eebefbf5
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: a63566204af77953a3bd15d678bb26acda8b2aec
+
+COCOAPODS: 1.5.2
