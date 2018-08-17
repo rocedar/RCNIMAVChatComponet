@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RCNIMAVChatComponet_Example' do
+  pod 'RCNIMAVChatComponet', :path => '../'
+
+  target 'RCNIMAVChatComponet_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
