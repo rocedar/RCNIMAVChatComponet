@@ -21,7 +21,7 @@ PODS:
     - AFNetworking
     - MJExtension
     - SVProgressHUD
-  - RCNIMAVChatComponet (0.1.1):
+  - RCNIMAVChatComponet (0.1.2):
     - Masonry (~> 1.0.1)
     - NIMSDK
     - RCBaseComponent
@@ -55,7 +55,7 @@ SPEC CHECKSUMS:
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   NIMSDK: 7f04d5c71a65171bc56f34a8f6e3477a2a19f319
   RCBaseComponent: 2a1602eb1afc6e1d81685c775350104d0c5790ce
-  RCNIMAVChatComponet: 6313efb14671c82aea857d6d82c552dbc38ad732
+  RCNIMAVChatComponet: e923cfae6812285fa5d8de2f5bd0a0258c2ec7d8
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 

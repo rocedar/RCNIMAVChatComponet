@@ -4,13 +4,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImage (image)
 
-+ (UIImage *)rcBundleImageWithName:(NSString *)name;
++ (UIImage *)rcNIMBundleImageWithName:(NSString *)name;
 
 @end
 
 @interface NSBundle (boundle)
 
-+ (NSBundle *)currentBundleWithtarget:(nullable id)target;
++ (NSBundle *)currentNIMBundleWithtarget:(nullable id)target;
 
 @end
 NS_ASSUME_NONNULL_END
