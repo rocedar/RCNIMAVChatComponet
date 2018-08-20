@@ -2,14 +2,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-/** SDK 版本号 */
-UIKIT_EXTERN NSString *const RC_SDK_VERSION;
-
-/** UPYUN 地址 */
-UIKIT_EXTERN NSString *const RCUpYUNUrl;
-UIKIT_EXTERN NSString *const RCDEFAULT_BUCKET;
-UIKIT_EXTERN NSString *const RCDEFAULT_PASSCODE;
-
 @interface UIImage (image)
 
 + (UIImage *)rcBundleImageWithName:(NSString *)name;
