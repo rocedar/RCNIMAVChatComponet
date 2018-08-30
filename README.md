@@ -22,7 +22,7 @@ pod 'RCNIMAVChatComponet'
 
 ## Author
 
-CoderTWWu, pruduct@rocedar.com
+wutengwei, pruduct@rocedar.com
 
 ## License
 
