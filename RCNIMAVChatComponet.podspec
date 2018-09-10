@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'RCNIMAVChatComponet/Classes/RCNIMAVChatComponet.framework'
 
   s.dependency 'RCBaseComponent'
-  s.dependency 'NIMSDK'
+  s.dependency 'NIMSDK','5.4.0'
 end
