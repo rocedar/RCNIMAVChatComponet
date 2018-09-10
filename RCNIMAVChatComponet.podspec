@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RCNIMAVChatComponet'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'RCNIMAVChatComponet.'
   s.homepage         = 'https://github.com/CoderTWWu/RCNIMAVChatComponet'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -12,8 +12,6 @@ Pod::Spec.new do |s|
   s.resource = 'RCNIMAVChatComponet/Classes/RCNIMAVChatComponet.bundle'
   s.ios.vendored_frameworks = 'RCNIMAVChatComponet/Classes/RCNIMAVChatComponet.framework'
 
-  s.dependency 'Masonry', '~> 1.0.1'
   s.dependency 'RCBaseComponent'
-  s.dependency 'SDWebImage','4.0.0'
   s.dependency 'NIMSDK'
 end

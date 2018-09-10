@@ -14,21 +14,27 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - Masonry (1.0.2)
+  - CYLTableViewPlaceHolder (1.0.9)
+  - IQKeyboardManager (6.1.1)
+  - Masonry (1.1.0)
   - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.7)
   - NIMSDK (5.5.0)
-  - RCBaseComponent (0.2.5):
+  - RCBaseComponent (0.2.8):
     - AFNetworking
+    - CYLTableViewPlaceHolder
+    - IQKeyboardManager
+    - Masonry
     - MJExtension
+    - MJRefresh
+    - SDWebImage
     - SVProgressHUD
-  - RCNIMAVChatComponet (0.1.5):
-    - Masonry (~> 1.0.1)
+  - RCNIMAVChatComponet (0.1.6):
     - NIMSDK
     - RCBaseComponent
-    - SDWebImage (= 4.0.0)
-  - SDWebImage (4.0.0):
-    - SDWebImage/Core (= 4.0.0)
-  - SDWebImage/Core (4.0.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
@@ -37,8 +43,11 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - CYLTableViewPlaceHolder
+    - IQKeyboardManager
     - Masonry
     - MJExtension
+    - MJRefresh
     - NIMSDK
     - SDWebImage
     - SVProgressHUD
@@ -51,12 +60,15 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  CYLTableViewPlaceHolder: 678e070180a24e2f241adc7830d5d7f5e2abbaa5
+  IQKeyboardManager: 79c57795f5c2408d259d37b9da2ed07efcbb5225
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   NIMSDK: 7f04d5c71a65171bc56f34a8f6e3477a2a19f319
-  RCBaseComponent: e95efabd9b6a8ed05338a598912b3a3f01fd364b
-  RCNIMAVChatComponet: f2f72fbbd474a4d5832b33b64072ad6db85fe470
-  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  RCBaseComponent: 958c3d34a46f6fd086454467a6b6631b38c5b694
+  RCNIMAVChatComponet: 6a99dae97b17b380d1b42e806938d94e5f04b0ba
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
 PODFILE CHECKSUM: a63566204af77953a3bd15d678bb26acda8b2aec
